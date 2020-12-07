@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: >
+      cmake -S. -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+
+vscode:
+  extensions:
+    - ms-vscode.cmake-tools@1.5.3:QI2POGDzx7mhyCmZyf/3vg==
+    - twxs.cmake@0.0.17:aQNzlYa74rJFJ5/BnUF1yA==
