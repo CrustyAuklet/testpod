@@ -1,1 +1,3 @@
-FROM conanio/gcc10:latest
+FROM gitpod/workspace-full:latest
+
+RUN pip install conan

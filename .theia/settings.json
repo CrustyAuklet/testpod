@@ -2,7 +2,7 @@
     "cpp.buildConfigurations": [
        {
           "name": "Debug",
-          "directory": "/workspace/HelloGitPod/build"
+          "directory": "/workspace/testpod/build"
        }
     ],
     "cpp.clangdArgs": "--background-index -std=c++17",
